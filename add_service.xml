@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PocketLibJ" default="addServices">
+
+    <property file="local.properties" />
+
+    <property name="bin.dir" value="bin"/>
+    <property name="apk"     value="${bin.dir}/PocketLibJ.apk"/>
+	
+    <target name="addServices" description="Adds the charset services to the APK file">
+        <jar destfile="${apk}" update="true">
+            <service type="java.nio.charset.spi.CharsetProvider">
+                <provider classname="gnu.java.nio.charset.Cp866Provider"/>
+            </service>
+        </jar>
+    </target>
+	
+</project>

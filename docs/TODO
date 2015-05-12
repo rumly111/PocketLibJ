@@ -1,0 +1,6 @@
+PocketLibJ TODO:
+* "Check" icon for started books
+* handle internet download exceptions. Handle OutOfmemory exceptions
+* save/load processed book from cache
+* Go to page menu option
+* "Loading" progressbar dialog

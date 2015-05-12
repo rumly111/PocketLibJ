@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="start_screen">Библиотека в кармане</string>
+    <string name="authors">Авторы</string>
+    <string name="config">Настройки</string>
+    <string name="genres">Жанры</string>
+    <string name="app_name">Библиотека в кармане</string>
+    <string name="books">Книги</string>
+    <string name="starred">Избранное</string>
+    <string name="settings">Настройки</string>
+    <string name="reading">Читаю</string>
+    <string name="search_hint">Поиск</string>
+    <string name="pref_viewer">Просмотрщик по умолчанию</string>
+    <string name="pref_selectViewer">Выберите просмотрщик</string>
+    <string name="pref_viewerType_default">internal</string>
+    <string name="library_root">Путь к директории библиотеки</string>
+    <string name="pref_libraryRootMessage">Введите путь к библиотеке (пример: /mnt/sdcard/books/)</string>
+    <string name="font_size">Размер шрифта</string>
+    <string name="set_font_size">Выберите размер шрифта</string>
+    <string name="goto_page">Перейти к странице</string>
+
+    <string name="open_book">Открыть</string>
+    <string name="book_open_ext">Открыть внешней программой</string>
+    <string name="book_toggle_starred">Добавить/убрать из избранного</string>
+    <string name="unknown_author">Неизвестный автор</string>
+    <string name="download_book">Скачать книгу</string>
+    <string name="library_server">Сервер библиотеки</string>
+    <string name="pref_serverMessage">Введите адрес сервера (http://host:port/path/to/books)</string>
+    <string name="book_not_found">Книга не найдена</string>
+    <string name="starred_books">Избранные книги</string>
+    <string name="ext_app_not_found">Внешняя программа не найдена</string>
+
+</resources>

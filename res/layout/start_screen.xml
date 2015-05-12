@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" 
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical" >
+      
+    <Button
+	android:id="@+id/btnBooksId"
+	android:layout_width="match_parent"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/button_padding"
+	android:onClick="onClick"
+	android:textSize="@dimen/button_text_size"
+	android:text="@string/books" />
+    <Button
+	android:id="@+id/btnAuthorsId"
+	android:layout_width="match_parent"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/button_padding"
+	android:onClick="onClick"
+	android:textSize="@dimen/button_text_size"
+	android:text="@string/authors" />
+    <Button
+	android:id="@+id/btnGenresId"
+	android:layout_width="match_parent"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/button_padding"
+	android:onClick="onClick"
+	android:textSize="@dimen/button_text_size"
+	android:text="@string/genres" />
+    <Button
+	android:id="@+id/btnStarredId"
+	android:layout_width="match_parent"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/button_padding"
+	android:onClick="onClick"
+	android:textSize="@dimen/button_text_size"
+	android:text="@string/starred" />
+	<Button
+	android:id="@+id/btnReadingId"
+	android:layout_width="match_parent"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/button_padding"
+	android:onClick="openReading"
+	android:textSize="@dimen/button_text_size"
+	android:text="@string/reading" />
+	<Button
+	android:id="@+id/btnSettingsId"
+	android:layout_width="match_parent"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/button_padding"
+	android:onClick="showSettings"
+	android:textSize="@dimen/button_text_size"
+	android:text="@string/settings" />
+  </LinearLayout>
+</FrameLayout>

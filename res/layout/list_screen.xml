@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+	
+<!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+<LinearLayout
+    android:focusable="true" android:focusableInTouchMode="true"
+    android:layout_width="0px" android:layout_height="0px"/>
+    
+<EditText
+	android:id="@+id/edSearchId"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:hint="@string/search_hint"
+	android:maxLines="1"
+	android:gravity="start" 
+	android:nextFocusUp="@id/edSearchId" 
+	android:nextFocusLeft="@id/edSearchId"
+	/>
+<ListView
+	android:id="@+id/listId"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" />
+</LinearLayout>

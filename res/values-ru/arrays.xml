@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_viewerType_entries">
+        <item >Встроенный</item>
+        <item >Внешний</item>
+    </string-array>
+    <string-array name="pref_viewerType_values">
+        <item >internal</item>
+        <item >external</item>
+    </string-array>
+    
+</resources>

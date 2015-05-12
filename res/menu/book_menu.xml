@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mOpenWvId" android:title="@string/open_book"></item>
+    <item android:id="@+id/mOpenExtId" android:title="@string/book_open_ext"></item>
+    <item android:id="@+id/mDownloadId" android:title="@string/download_book"></item><item android:id="@+id/mToggleStarredId" android:title="@string/book_toggle_starred"></item>
+    
+    
+
+</menu>
